@@ -1,4 +1,4 @@
-FROM debian:stretch-20201012-slim
+FROM debian:bullseye-slim
 
 RUN apt-get update && apt-get install -y \
 		curl \
